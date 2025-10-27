@@ -10,6 +10,14 @@ h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
 }
+.profile-pic {
+  width: 240px;           /* rectangle width */
+  height: 320px;          /* taller than wide */
+  object-fit: cover;      /* crops image neatly */
+  border-radius: 0;       /* removes circle */
+  margin: 0 auto 1rem;    /* centers it horizontally */
+  display: block;
+}
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
