@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
 }
-.profile-pic {
+profile-pic {
   width: 240px;           /* rectangle width */
   height: 240px;          /* taller than wide */
   object-fit: cover;      /* crops image neatly */
