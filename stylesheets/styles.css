@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .profile-pic {
   width: 240px;           /* rectangle width */
-  height: 290px;          /* taller than wide */
+  height: 240px;          /* taller than wide */
   object-fit: cover;      /* crops image neatly */
   border-radius: 0;       /* removes circle */
   margin: 0 auto 1rem;    /* centers it horizontally */
