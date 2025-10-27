@@ -17,7 +17,7 @@ profile-pic {
   border-radius: 0;       /* removes circle */
   margin: 0 auto 1rem;    /* centers it horizontally */
   display: block;
-  margin-bottom: 60px;
+  margin-bottom: 150px;
 }
 
 p, ul, ol, table, pre, dl {
