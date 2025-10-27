@@ -22,12 +22,14 @@ body {
 }
 
 .profile-pic {
-  width: 240px;
-  height: auto;
-  border-radius: 0; /* rectangle */
-  margin-bottom: 1rem;
-  object-fit: cover;
+  width: 240px;           /* rectangle width */
+  height: 320px;          /* taller than wide */
+  object-fit: cover;      /* crops image neatly */
+  border-radius: 0;       /* removes circle */
+  margin: 0 auto 1rem;    /* centers it horizontally */
+  display: block;
 }
+
 
 .sidebar h1 {
   margin: 0.5rem 0 0.2rem 0;
