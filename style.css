@@ -1,80 +1,66 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #333;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #222;
   background: #fafafa;
+  margin: 0;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   min-height: 100vh;
 }
 
 .sidebar {
-  background: #fff;
-  border-right: 1px solid #ddd;
-  width: 30%;
-  padding: 2em;
-  box-sizing: border-box;
-  text-align: center;
+  background: #ffffff;
+  padding: 2rem;
+  width: 280px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
 }
 
-.profile-photo {
-  width: 140px;
-  height: 140px;
+.profile-pic {
+  width: 100%;
   border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
 
 .sidebar h1 {
-  margin-top: 0.5em;
-  font-size: 1.6em;
+  margin: 0.5rem 0 0;
+  font-size: 1.6rem;
 }
 
 .sidebar p {
-  color: #666;
-  margin-bottom: 1em;
+  font-size: 0.95rem;
+  color: #555;
 }
 
-.social-links {
-  list-style: none;
-  padding: 0;
-  margin-top: 1.5em;
-}
-
-.social-links li {
-  margin-bottom: 0.5em;
-}
-
-.social-links a {
+.links a {
   text-decoration: none;
-  color: #0070c9;
-}
-
-.social-links a:hover {
-  text-decoration: underline;
+  color: #0056b3;
+  font-size: 0.9rem;
 }
 
 .content {
   flex: 1;
-  padding: 3em;
-  background: #fff;
+  padding: 2rem 3rem;
 }
 
 h2 {
-  border-bottom: 2px solid #0070c9;
-  padding-bottom: 0.3em;
-  margin-top: 1.5em;
+  color: #222;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.4rem;
 }
 
 ul {
-  line-height: 1.6;
+  list-style-type: none;
+  padding: 0;
 }
 
-footer {
-  margin-top: 3em;
-  font-size: 0.9em;
-  color: #888;
+li {
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+a {
+  color: #0056b3;
 }
